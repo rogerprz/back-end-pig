@@ -9,7 +9,10 @@
 joe = User.create(name: "JRG")
 brie = User.create(name: "BRS")
 roger = User.create(name: "ROG")
+gui = User.create(name: "GUI")
 
-score1 = Score.create(score: 1000, user_id: 1)
-score2 = Score.create(score: 2000, user_id: 2)
-score3 = Score.create(score: 3000, user_id: 3)
+
+score1 = Score.create(score: 10, user_id: 1)
+score2 = Score.create(score: 13, user_id: 2)
+score3 = Score.create(score: 14, user_id: 3)
+score4 = Score.create(score: 8, user_id: 4)
